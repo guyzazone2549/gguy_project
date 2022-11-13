@@ -1,0 +1,43 @@
+.cartAmount {
+    position: relative;
+    top: 2%;
+    right: 1%;
+    font-size: 16px;
+    background-color: red;
+    color: white;
+    padding: 2px;
+    border-radius: 3px;
+  }
+  @media only screen and (max-width: 284px) {
+    .cartAmount {
+        position: relative;
+        top: 63%;
+        right: 82%;
+        font-size: 16px;
+        background-color: red;
+        color: white;
+        padding: 2px;
+        border-radius: 3px;
+      }
+  }
+  #charles{
+    color: aliceblue;
+  }
+  h1,h5,h6{
+    color: aliceblue;
+  }
+  .zoom {
+    height: auto;
+    cursor: pointer;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 0.2s;
+    -webkit-transition-timing-function: ease;
+}
+.zoom:hover {
+    transform: scale(1.05);
+}    
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
